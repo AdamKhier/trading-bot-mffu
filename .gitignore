@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# data + reports
+data/*.parquet
+data/*.parquet.gz
+data/raw/
+reports/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+dist/
+build/
+
+# os
+.DS_Store
